@@ -1,0 +1,8 @@
+algo = (input('digite algo para que eu possa identificar o seu tipo primitivo :'))
+print('O tipo primitivo é :', type(algo))
+print('É um numero ?', algo.isnumeric())
+print('É alphabético ?', algo.isalpha())
+print('É alphanumerico ?', algo.isalnum())
+print('Está em letras maiusculas ?', algo.isupper())
+print('Está em letra minusculas ?', algo.islower())
+print("Esta capitalizado ou letras maiusculas e minusculas ", algo.istitle())
